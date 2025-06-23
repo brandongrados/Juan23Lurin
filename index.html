@@ -545,22 +545,22 @@
         <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
       </div>
 
-      <div class="row">
+      
+<div class="row">
     <div class="col-12 d-flex flex-wrap justify-content-center">
 
-        <div class="row">
-    <div class="col-12 d-flex flex-wrap justify-content-center">
-
-        <div class="col-lg-4 col-md-8 px-2"> <div class="video-responsive-container short-video">
-                <video controls preload="metadata" style="width: 100%; height: auto; display: block;">
+        <div class="col-lg-6 col-md-10 px-2">
+            <div class="video-responsive-container short-video">
+                <video id="video1" controls preload="metadata" muted style="width: 100%; height: auto; display: block; max-width: 700px;" data-video-url="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750644019/testimonio_Joven_Juan_XXIII_iq6fgz.mp4">
                     <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750644019/testimonio_Joven_Juan_XXIII_iq6fgz.mp4" type="video/mp4">
                     Tu navegador no soporta la etiqueta de video.
                 </video>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-8 px-2"> <div class="video-responsive-container short-video">
-                <video controls preload="metadata" style="width: 100%; height: auto; display: block;">
+        <div class="col-lg-6 col-md-10 px-2">
+            <div class="video-responsive-container short-video">
+                <video id="video2" controls preload="metadata" muted style="width: 100%; height: auto; display: block; max-width: 700px;" data-video-url="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750644117/Testimonio_joven_Juan_XXIII_1_fpm46f.mp4">
                     <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750644117/Testimonio_joven_Juan_XXIII_1_fpm46f.mp4" type="video/mp4">
                     Tu navegador no soporta la etiqueta de video.
                 </video>
@@ -569,6 +569,17 @@
 
     </div>
 </div>
+
+<div id="videoModal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="close-button">&times;</span>
+        <video id="modalVideoPlayer" controls autoplay style="width: 100%; height: auto; display: block; max-width: 90vw; max-height: 90vh;"></video>
+    </div>
+</div>
+
+
+
+    
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
@@ -712,6 +723,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/video_testimonio.js"></script>
+
 
 </body>
 

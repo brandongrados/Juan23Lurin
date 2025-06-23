@@ -1645,3 +1645,65 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/*#################/
+/VIDEO TESTIMONIOS
+
+/* Estilos para el modal de video (la ventana que se abre en pantalla completa) */
+.video-modal {
+    display: none; /* Por defecto está oculto */
+    position: fixed; /* Se queda fijo en la pantalla */
+    z-index: 1000; /* Asegura que esté encima de todo lo demás */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Permite scroll si el video es más grande que la pantalla */
+    background-color: rgba(0,0,0,0.9); /* Fondo negro semi-transparente */
+    display: flex; /* Para centrar el contenido (el video) */
+    justify-content: center;
+    align-items: center;
+}
+
+.video-modal-content {
+    position: relative;
+    margin: auto; /* Centra el contenido */
+    padding: 20px;
+    width: 90%; /* El video ocupará el 90% del ancho del modal */
+    max-width: 1200px; /* Ancho máximo para el video */
+    background-color: #000; /* Fondo del reproductor dentro del modal */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop; /* Animación de aparición */
+    animation-duration: 0.4s
+}
+
+/* Animación para que el modal aparezca suavemente */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.close-button {
+    color: #fff; /* Color blanco para la 'x' */
+    font-size: 35px; /* Tamaño grande para la 'x' */
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+    z-index: 1001; /* Asegura que el botón esté encima del video */
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #bbb; /* Color al pasar el ratón por encima */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* El video dentro del modal se ajustará al 100% de su contenedor */
+.video-modal-content video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
