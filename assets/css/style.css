@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #950101;
+  color: #0d6efd;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #950101;
+  border: 6px solid #0d6efd;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
@@ -72,7 +72,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #950101;
+  background: #0d6efd;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -190,7 +190,7 @@ h6 {
 */
 .appointment-btn {
   margin-left: 25px;
-  background: #950101;
+  background: #0d6efd;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -264,8 +264,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #950101;
-  border-color: #950101;
+  color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .navbar .dropdown ul {
@@ -303,7 +303,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .navbar .dropdown:hover>ul {
@@ -407,7 +407,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .navbar-mobile .getstarted,
@@ -442,7 +442,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -641,7 +641,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #950101;
+  background: #0d6efd;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -717,7 +717,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #950101;
+  background: #0d6efd;
   border-radius: 4px;
   color: #fff;
 }
@@ -746,7 +746,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #950101;
+  color: #0d6efd;
   background: #fff;
 }
 
@@ -761,7 +761,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #950101;
+  color: #0d6efd;
   margin-bottom: 30px;
 }
 
@@ -809,13 +809,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #950101;
+  color: #0d6efd;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #950101;
-  border-color: #950101;
+  background: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .about .icon-box:hover .icon i {
@@ -835,7 +835,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .about .icon-box .description {
@@ -853,7 +853,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#950101 50%, rgba(25, 119, 204, 0.4) 52%);
+  background: radial-gradient(#0d6efd 50%, rgba(25, 119, 204, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -896,7 +896,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #950101;
+  border-left: 15px solid #0d6efd;
   transform: scale(20);
 }
 
@@ -953,12 +953,12 @@ section {
 }
 
 .departments .nav-link:hover {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .departments .nav-link.active {
-  color: #950101;
-  border-color: #950101;
+  color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .departments .tab-pane.active {
@@ -988,7 +988,7 @@ section {
 
   .departments .nav-link.active {
     color: #fff;
-    background: #950101;
+    background: #0d6efd;
   }
 }
 
@@ -1017,12 +1017,12 @@ section {
 }
 
 .Pastoral_Juvenil .nav-link:hover {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .Pastoral_Juvenil .nav-link.active {
-  color: #950101;
-  border-color: #950101;
+  color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .Pastoral_Juvenil .tab-pane.active {
@@ -1052,7 +1052,7 @@ section {
 
   .Pastoral_Juvenil .nav-link.active {
     color: #fff;
-    background: #950101;
+    background: #0d6efd;
   }
 }
 
@@ -1079,12 +1079,12 @@ section {
 }
 
 .Pastoral_Familiar .nav-link:hover {
-  color: #950101;
+  color: #0d6efd;
 }
 
 .Pastoral_Familiar .nav-link.active {
-  color: #950101;
-  border-color: #950101;
+  color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .Pastoral_Familiar .tab-pane.active {
@@ -1114,7 +1114,7 @@ section {
 
   .Pastoral_Familiar .nav-link.active {
     color: #fff;
-    background: #950101;
+    background: #0d6efd;
   }
 }
 
@@ -1126,7 +1126,7 @@ section {
 
 .boton-descarga {
   padding: 12px;
-  background-color: #950101;
+  background-color: #0d6efd;
   color: #fff;
   text-decoration: none;
   border: 2px solid #fff;
@@ -1286,11 +1286,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #950101;
+  border: 1px solid #0d6efd;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #950101;
+  background-color: #0d6efd;
 }
 
 @media (max-width: 767px) {
@@ -1363,7 +1363,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #950101;
+  color: #0d6efd;
   float: left;
   width: 44px;
   height: 44px;
@@ -1398,7 +1398,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #950101;
+  background: #0d6efd;
   color: #fff;
 }
 
@@ -1468,7 +1468,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #950101;
+  background: #0d6efd;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1569,7 +1569,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #950101;
+  color: #0d6efd;
 }
 
 #footer .footer-newsletter {
@@ -1609,7 +1609,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #950101;
+  background: #0d6efd;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1628,7 +1628,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #950101;
+  background: #0d6efd;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
