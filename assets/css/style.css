@@ -1650,20 +1650,23 @@ section {
 /VIDEO TESTIMONIOS
 
 /* Estilos para el modal de video (la ventana que se abre en pantalla completa) */
+/* Estilos para el modal de video */
 .video-modal {
-    display: none; /* Por defecto está oculto */
-    position: fixed; /* Se queda fijo en la pantalla */
-    z-index: 1000; /* Asegura que esté encima de todo lo demás */
+    display: none !important; /* Añadimos !important para forzar que esté oculto */
+    position: fixed; /* Posición fija para cubrir toda la pantalla */
+    z-index: 1000; /* Asegura que esté por encima de todo lo demás */
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto; /* Permite scroll si el video es más grande que la pantalla */
-    background-color: rgba(0,0,0,0.9); /* Fondo negro semi-transparente */
-    display: flex; /* Para centrar el contenido (el video) */
+    overflow: auto; /* Permite scroll si el video es muy grande para la pantalla */
+    background-color: rgba(0,0,0,0.9); /* Fondo semitransparente oscuro */
+    /* El display: flex se añadirá con JavaScript cuando el modal se abra */
     justify-content: center;
     align-items: center;
 }
+
+/* ... el resto de tu CSS para .video-modal-content y .close-button ... */
 
 .video-modal-content {
     position: relative;
