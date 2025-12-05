@@ -28,10 +28,10 @@
 </head>
 <body>
   <!--======== Boton de Whatsapp=========-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <a href="https://api.whatsapp.com/send?phone=51922059066&text=Buen día Juan XXIII, vengo desde la web, mi consulta es ..." class="float" target="_blank">
   <i class="fa fa-whatsapp my-float"></i>
-  </a>
+  </a>-->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
@@ -67,7 +67,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-     <!-- <a href="#contact" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span> Contacto</a> -->
+  <!-- <a href="#contact" class="appointment-btn scrollto"><span class="d-none d-md-inline"></span> Contacto</a> -->
 
     </div>
   </header><!-- End Header -->
@@ -76,11 +76,9 @@
   <section id="hero" class="hero">
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url(assets/img/nosotros/1.jpeg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/nosotros/2.jpeg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/nosotros/1.jpeg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/nosotros/2.jpeg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/nosotros/1.jpeg)"></div>
+      <div class="carousel-item active" style="background-image: url(assets/img/nosotros/portada1.jpeg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/nosotros/portada4.jpeg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/nosotros/portada5.jpeg)"></div>
 
       <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -154,7 +152,13 @@
 
       <div class="row">
         <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-          <a href="https://www.youtube.com/watch?v=eHh3hXgGQM0" class="glightbox play-btn mb-4"></a>
+         <a href="https://res.cloudinary.com/ddavlkcwx/video/upload/v1764896183/NelsonRivera_qpkfd1.mp4"
+          class="glightbox play-btn mb-4"
+          data-type="video"
+          data-source="local"
+          data-width="900"
+          data-height="600">
+        </a>
         </div>
 
         <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
@@ -181,22 +185,13 @@
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a id="retiros" class="nav-link" data-bs-toggle="tab" href="#tab-1">Próximos Retiros</a>
+                <a id="retiros" class="nav-link" data-bs-toggle="tab" href="#tab-1">Próximos Retiros 2026</a>
               </li>
               <li class="nav-item">
-                <a id="parroquiales" class="nav-link active show" data-bs-toggle="tab" href="#tab-2">Parroquiales</a>
-              </li>
-              <li class="nav-item">
-                <a id="actividades" class="nav-link" data-bs-toggle="tab" href="#tab-3">Actividades</a>
+                <a id="parroquiales" class="nav-link active show" data-bs-toggle="tab" href="#tab-2">Actividades</a>
               </li>
               <!--<li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
+                <a id="actividades" class="nav-link" data-bs-toggle="tab" href="#tab-3">Parroquiales</a>
               </li>-->
             </ul>
           </div>
@@ -204,116 +199,102 @@
             <div class="tab-content">
               <div class="tab-pane" id="tab-1">
                 <div class="row gy-4">
-                  <!--<div class="col-lg-12 details order-2 order-lg-1">-->
-                    <!--<h3>Retiros 2024</h3>
-                    <!--<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>-->
-                  <!--</div>-->
-                  <!--<div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
-                  </div>-->
                   <div class="row portfolio-container">
-                    <!---->
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/Hombre_Adultos.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE HOMBRES ADULTOS 307</h4>
-                          <p>15,16,17 de Marzo</p>
+                          <h4>RETIRO DE HOMBRES ADULTOS #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details1.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
+                         <!--<a href="retiro-details3.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>-->
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/Mujer_Adultos.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE MUJERES ADULTAS 308</h4>
-                          <p>19,20,21 de Abril</p>
+                          <h4>RETIRO DE MUJERES ADULTAS #</h4>
+                          <!--<p>19,20,21 de Abril</p>-->
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details2.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/Hombre_Adultos.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE HOMBRES ADULTOS 309</h4>
-                          <p>24,25,26 de Mayo</p>
+                          <h4>RETIRO DE HOMBRES ADULTOS #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details3.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/Mujer_Adultos.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE MUJERES ADULTAS 310</h4>
-                          <p>21,22,23 de Junio</p>
+                          <h4>RETIRO DE MUJERES ADULTAS #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details4.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/jovenes_varones2.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE HOMBRES JÓVENES 311</h4>
-                          <p>23,24,25 de Agosto</p>
+                          <h4>RETIRO DE HOMBRES JÓVENES #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details5.html" target="_blank" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/jovenes_mujeres.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE MUJERES JÓVENES 312</h4>
-                          <p>20,21,22 de Septiembre</p>
+                          <h4>RETIRO DE MUJERES JÓVENES #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details6.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/Hombre_Adultos1.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE HOMBRES ADULTOS 313</h4>
-                          <p>25,26,27 de Octubre</p>
+                          <h4>RETIRO DE HOMBRES ADULTOS #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
-                            <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details7.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
-                    </div><!--fin retiro-->
+                    </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
                         <img src="assets/img/retiros/Mujer_Adultos.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                          <h4>RETIRO DE MUJERES ADULTAS 314</h4>
-                          <p>15,16,17 de Noviembre</p>
+                          <h4>RETIRO DE MUJERES ADULTAS #</h4>
+                          <p>fecha: #</p>
                           <div class="portfolio-links">
                             <!--<a href="assets/img/portfolio/simultaneo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RETIRO DE JÓVENES SIMULTANEO PARA VARONES Y MUEJERES"><i class="bx bx-plus"></i></a>-->
-                          <a href="retiro-details8.html" target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles<i class="bx bx-link"></i></a>
+                          <a  target="_blank" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">Detalles Próximamente<i class="bx bx-link"></i></a>
                           </div>
                         </div>
                       </div>
@@ -324,9 +305,143 @@
                 </div>
               </div>
               <div class="tab-pane active show" id="tab-2">
+              <div id="avisosCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#avisosCarousel" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#avisosCarousel" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#avisosCarousel" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#avisosCarousel" data-bs-slide-to="3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                  <!-- 🔵 ANUNCIO 1 -->
+                  <div class="carousel-item active">
+                    <div class="row gy-4">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>CLASES DE CORO</h3>
+
+                        <p>🔥 ¡Seguimos con la misión! Te invitamos a la primera clase de coro de jóvenes de la Diócesis de Lurín</p>
+
+                        <p>📅 <strong>Sábado 6 de Diciembre</strong></p>
+                        <p>🕖 <strong>11 am a 12:30 del medio día</strong></p>
+
+                        <p>🏠 Lugar: <a href="https://maps.app.goo.gl/RXVKvYa5LfthtDyT9" target="_blank">Ubicación</a></p>
+
+                        <p>
+                          ❤️ Te esperamos<br>
+                          🎶 Música y animación<br>
+                           ¡Junto rumbo al encuentro nacional!
+                        </p>
+                      </div>
+
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/AVISOS/ACTIVIDADES/Coro.jpg"
+                            class="img-fluid"
+                            style="cursor:pointer"
+                            data-bs-toggle="modal"
+                            data-bs-target="#imgModal">
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 🔵 ANUNCIO 2 -->
+                  <div class="carousel-item">
+                    <div class="row gy-4">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>CLAUSURA DE AÑO</h3>
+
+                        <p>🎉 ¡Te invitamos a celebrar este año de misión, agradecer tu entrega y compartir una noche tierna de alegría, unidad y espíritu Juan XXIII ! 🎉<br>
+                          ¡Ven y únete a este día de alegría!
+                        </p>
+
+                        <p>📅 <strong>Martes 16 de Diciembre</strong></p>
+                        <p>🕖 <strong>6:45 P.M.</strong></p>
+                        <p>🏠 Lugar: <a href="https://maps.app.goo.gl/KDw3MWVRhEtSsQCL9" target="_blank">Ubicación</a></p>
+                        
+                        <p>
+                          ✨ Cena<br>
+                          💃🕺 Música<br>
+                          🤝 y mucho más...
+                        </p>
+
+                   
+                        
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <video controls width="100%" style="border-radius: 8px;">
+                          <source src="assets/videos/avisos/eventos/clausura de año.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                      <!--<div class="col-lg-4 text-center order-1 order-lg-2">
+                        <a href="assets/img/AVISOS/ACTIVIDADES/Actividad.jpg">
+                          <img src="assets/img/AVISOS/ACTIVIDADES/Actividad.jpg" class="img-fluid">
+                        </a>
+                      </div>-->
+                    </div>
+                  </div>
+
+                  <!-- 🔵 ANUNCIO 3 -->
+                  <div class="carousel-item">
+                    <div class="row gy-4">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>CHOCOLATADA NAVIDEÑA</h3>
+
+                        <p>🎉Show, juegos, sorpresas y más, llevaremos la felicidad y el amor de Cristo a nuestros hermanos del CEBE (CENTRO DE EDUCACIÓN BÁSICA ESPECIAL) "DIVINA MISERICORDÍA EN VES" </p>
+
+                        <p>📅 <strong>Sábado 20 de Diciembre</strong></p>
+                        <p>🕖 <strong>Desde 9 am</strong></p>
+                        <p>🏠 Lugar: <a href="https://maps.app.goo.gl/NE68S5vih38Xe2ev5" target="_blank">Ubicación</a></p>
+                      </div>
+
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <video controls width="100%" style="border-radius: 8px;">
+                          <source src="assets/img/AVISOS/ACTIVIDADES/chocolatada.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 🔵 ANUNCIO 4 -->
+                  <div class="carousel-item">
+                    <div class="row gy-4">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>FIESTA NAVIDEÑA DE LA PASTORAL JUVENIL</h3>
+
+                        <p>🎉Compartamos juntos como pastoral juvenil en esta fiesta navideña e intercambio de regalos para confraternidad y seguir esta misión tan hermosa de seguir a Cristo</p>
+                        <p>🤝Llevar 10 soles para la cena</p>
+                        <p>📅 <strong>Sábado 20 de Diciembre</strong></p>
+                        <p>🕖 <strong>4 pm</strong></p>
+                        <p>🏠 Lugar: <a href="https://maps.app.goo.gl/X4Mu1ns5iaFzuJL59" target="_blank">Ubicación</a></p>
+                      </div>
+
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/AVISOS/ACTIVIDADES/fiesta navideña e intercambio regalos.png"
+                            class="img-fluid"
+                            style="cursor:pointer"
+                            data-bs-toggle="modal"
+                            data-bs-target="#imgModal">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Flechas -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#avisosCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#avisosCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+
+              </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Invitación:</h3>
+                    <h3>Proximamen:</h3>
                     <!--<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>-->
                     <p>Buenos días, tenemos una invitación del ÁREA DE JUAN XXIII PARROQUIA JESÚS DE NAZARENO - CAPILLA LA MERCED</p>
                   </div>
@@ -338,50 +453,7 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>DELICIOSA POLLADA BAILABLE</h3>
-                    <!--<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>-->
-                    <p>🎉 ¡Únete a la fiesta de la Pollada Bailable con la Pastoral Juvenil! 🎉
 
-                      ¡Ven y únete a este día de sabor, ritmo y alegría! Estamos emocionados de invitarte a nuestra Pollada Bailable, donde no solo disfrutarás de deliciosos platillos, sino que también tendrás la oportunidad de disfrutar momentos de confraternidad.
-                      
-                      
-                      </p>
-                      <p>
-                      📅 Fecha: [Domingo 31 de Marzo]
-                      
-                      </p>
-                      <p>
-                        🕖 Hora: [10 am]
-                     
-                      </p>
-                      
-                        🏠 Lugar: <a href="//maps.app.goo.gl/jkWdWheGnXq7TN5Z7" target="_blank"> ubicación</a>
-                      
-                        
-                      </p>
-                      <p>
-                        ¿Qué esperar?
-                        ✨ Deliciosa pollada con los mejores sabores caseros.
-                        💃🕺 Música en vivo que te harán bailar todo el día.
-                        🤝 La oportunidad de apoyar nuestra Pastoral Juvenil para su viaje a Colombia y fortalecer nuestra comunidad.
-                        </p>
-                        <p>
-                        ¡No te pierdas esta oportunidad de divertirte mientras apoyas una gran causa! Invita a tus amigos, familiares y vecinos. ¡Te esperamos para compartir juntos una noche inolvidable!
-                      </p>
-                        <p>
-                        ¡Nos vemos en la pista de baile! 💃🕺
-                      </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <a href="assets/img/AVISOS/ACTIVIDADES/Actividad.jpg" >
-                      <img src="assets/img/AVISOS/ACTIVIDADES/Actividad.jpg" alt="" class="img-fluid">
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -546,38 +618,36 @@
       </div>
 
       
-<div class="row">
-    <div class="col-12 d-flex flex-wrap justify-content-center">
+      <div class="row">
+          <div class="col-12 d-flex flex-wrap justify-content-center">
 
-        <div class="col-lg-6 col-md-10 px-2">
-            <div class="video-responsive-container short-video">
-                <video id="video1" controls preload="metadata" muted style="width: 100%; height: auto; display: block; max-width: 700px;" data-video-url="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651934/WhatsApp_Video_2025-06-22_at_11.09.39_PM_1_u56tfl.mp4">
-                    <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651934/WhatsApp_Video_2025-06-22_at_11.09.39_PM_1_u56tfl.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-            </div>
-        </div>
+              <div class="col-lg-6 col-md-10 px-2">
+                  <div class="video-responsive-container short-video">
+                      <video id="video1" controls preload="metadata" muted style="width: 100%; height: auto; display: block; max-width: 700px;" data-video-url="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651934/WhatsApp_Video_2025-06-22_at_11.09.39_PM_1_u56tfl.mp4">
+                          <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651934/WhatsApp_Video_2025-06-22_at_11.09.39_PM_1_u56tfl.mp4" type="video/mp4">
+                          Tu navegador no soporta la etiqueta de video.
+                      </video>
+                  </div>
+              </div>
 
-        <div class="col-lg-6 col-md-10 px-2">
-            <div class="video-responsive-container short-video">
-                <video id="video2" controls preload="metadata" muted style="width: 100%; height: auto; display: block; max-width: 700px;" data-video-url="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651921/WhatsApp_Video_2025-06-22_at_11.09.39_PM_gljsd1.mp4">
-                    <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651921/WhatsApp_Video_2025-06-22_at_11.09.39_PM_gljsd1.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-            </div>
-        </div>
+              <div class="col-lg-6 col-md-10 px-2">
+                  <div class="video-responsive-container short-video">
+                      <video id="video2" controls preload="metadata" muted style="width: 100%; height: auto; display: block; max-width: 700px;" data-video-url="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651921/WhatsApp_Video_2025-06-22_at_11.09.39_PM_gljsd1.mp4">
+                          <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1750651921/WhatsApp_Video_2025-06-22_at_11.09.39_PM_gljsd1.mp4" type="video/mp4">
+                          Tu navegador no soporta la etiqueta de video.
+                      </video>
+                  </div>
+              </div>
 
-    </div>
-</div>
+          </div>
+      </div>
 
-<div id="videoModal" class="video-modal">
-    <div class="video-modal-content">
-        <span class="close-button">&times;</span>
-        <video id="modalVideoPlayer" controls autoplay style="width: 100%; height: auto; display: block; max-width: 90vw; max-height: 90vh;"></video>
-    </div>
-</div>
-
-
+      <div id="videoModal" class="video-modal">
+          <div class="video-modal-content">
+              <span class="close-button">&times;</span>
+              <video id="modalVideoPlayer" controls autoplay style="width: 100%; height: auto; display: block; max-width: 90vw; max-height: 90vh;"></video>
+          </div>
+      </div>
 
     
 
@@ -642,61 +712,6 @@
     </div>
   </section><!-- End Testimonials Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <!-- =======<section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contacto</h2>
-         </div>
-      </div>
-
-
-      <div class="container">
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>retiros@juan23lurin.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Telefono:</h4>
-                <p>+51 922 059 066</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="nombres" placeholder="Nombre" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" id="mensaje" rows="5" placeholder="Mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="sent-message">Tu mensaje fue enviado con éxito. Gracias!</div>
-              </div>
-              <div class="text-center" id="send"><button type="submit">Enviar Mensaje</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>====== --><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -725,7 +740,26 @@
   <script src="assets/js/script.js"></script>
   <script src="assets/js/video_testimonio.js"></script>
 
+  <!--IMAGEN MODAL-->
+  <div class="modal fade" id="imgModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+      <img id="modalImage" src="" class="img-fluid" style="max-width:400px;display:block; margin:auto;">
+      </div>
+    </div>
+  </div>
+  </div>
 
+  <script>
+    const imgModal = document.getElementById('imgModal');
+    imgModal.addEventListener('show.bs.modal', function (event) {
+      const img = event.relatedTarget;
+      const src = img.getAttribute('src');
+      document.getElementById('modalImage').src = src;
+    });
+  </script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
