@@ -156,7 +156,8 @@
         </div>
 
       <div class="row">
-        <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+
+        <!--<div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
          <a href="https://res.cloudinary.com/ddavlkcwx/video/upload/v1764896183/NelsonRivera_qpkfd1.mp4"
           class="glightbox play-btn mb-4"
           data-type="video"
@@ -164,6 +165,17 @@
           data-width="900"
           data-height="600">
         </a>
+        </div>-->
+        <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+
+        <a href="#video-popup" class="glightbox play-btn mb-4"></a>
+
+        <div id="video-popup" class="glightbox-video" style="display: none;">
+          <video controls playsinline style="width:100%; height:auto;">
+            <source src="https://res.cloudinary.com/ddavlkcwx/video/upload/v1764896183/NelsonRivera_qpkfd1.mp4" type="video/mp4">
+          </video>
+        </div>
+
         </div>
 
         <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">

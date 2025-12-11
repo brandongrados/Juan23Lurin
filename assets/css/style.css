@@ -1787,3 +1787,12 @@ section {
 .carousel-control-next {
   width: 60px; /* ancho para que no quede pegado */
 }
+
+/*rotacion de video en nelson*/
+
+.glightbox-video video {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  rotate: 0deg;
+}
